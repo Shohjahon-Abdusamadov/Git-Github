@@ -88,6 +88,26 @@ header .navigation .link a .material-symbols-outlined {
   text-align: center;
   white-space: wrap;
 }
+.section__top .position p {
+  position: relative;
+  animation-name: example;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+@keyframes example {
+  0% {
+    left: 0px;
+    top: 0px;
+  }
+  75% {
+    left: 0px;
+    top: 50px;
+  }
+  100% {
+    left: 0px;
+    top: 0px;
+  }
+}
 .section__top h1 {
   font-weight: 900;
   font-size: clamp(2em, 20vw, 25rem);
